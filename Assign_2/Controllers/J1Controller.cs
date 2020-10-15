@@ -32,82 +32,65 @@ namespace Assign_2.Controllers
             if (burger == 1)
             {
                 calories = 461;
-
             } //end of if
             else if (burger == 2)
             {
                 calories = 431;
-
             } //end of else if
             else if (burger == 3)
             {
                 calories = 420;
-
             } //end of else if
             else
             {
                 calories = 0;
-
             } //end of else 
-
 
             if (drink == 1)
             {
                 calories = calories + 130;
-
             } //end of if
             else if (drink == 2)
             {
                 calories = calories + 160;
-
             } //end of else if
             else if (drink == 3)
             {
                 calories = calories + 118;
-
             } //end of else if
             else
             {
                 calories = calories + 0;
-
             } //end of else 
-
 
             if (side == 1)
             {
                 calories = calories + 100;
-
             } //end of if
             else if (side == 2)
             {
                 calories = calories + 57;
-
             } //end of else if
             else if (side == 3)
             {
                 calories = calories + 70;
-
             } //end of else if
             else
             {
                 calories = calories + 0;
-
             } //end of else 
 
             if (dessert == 1)
             {
                 calories = calories + 167;
-
             } //end of if
             else if (dessert == 2)
             {
                 calories = calories + 266;
-
             } //end of else if
             else if (dessert == 3)
             {
                 calories = calories + 75;
-
             } //end of else if
             else
             {
